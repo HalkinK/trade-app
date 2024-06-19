@@ -1,0 +1,60 @@
+.container {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.liqWrapper {
+  padding: 10px;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
+}
+
+
+.sizeBtnCont {
+  display: flex;
+
+  margin-bottom: 20px;
+
+  .sizeBtn {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    color: antiquewhite;
+    margin-right: 15px;
+
+    cursor: pointer;
+  }
+  
+  .active {
+    color: orange;
+  }
+
+  .sizeBtn:hover {
+    border: 1px solid yellowgreen;
+    color: yellowgreen
+  }
+}
+
+.linkBtn {
+  padding: 5px;
+  border: 1px solid antiquewhite;
+  border-radius: 5px;
+  color: antiquewhite;
+
+  background-color: #181717;
+
+  cursor: pointer;
+}
+
+.linkBtn:hover {
+  border: 1px solid yellowgreen;
+  color: yellowgreen
+}
