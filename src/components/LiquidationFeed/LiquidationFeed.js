@@ -88,7 +88,7 @@ const LiquidationFeed = () => {
           if ((data.data.size*data.data.price) > 50000) {
             CowSound.play()
           }
-          if ((data.data.size*data.data.price) > 100000) {
+          if ((data.data.size*data.data.price) > 50000) {
             const sideIcon = data.data.side === "Sell" ? "🔴" : "🟢";
             // const symbolLink = `https://www.bybit.com/trade/usdt/${data.data.symbol}`
             // const message = `${sideIcon} ${data.data.symbol} ($${(Math.round(data.data.size*data.data.price))?.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")})\n${symbolLink}`;
